@@ -1,5 +1,21 @@
 <template>
-  <header class="relative pt-10 pb-12 lg:pt-32 lg:pb-24">
+  <header
+   class="relative pt-10 pb-12 lg:pt-32 lg:pb-24">
+   <script>
+  window.pixelId = "699fe4457494d33e101160de";
+  var a = document.createElement("script");
+  a.setAttribute("async", "");
+  a.setAttribute("defer", "");
+  a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");
+  document.head.appendChild(a);
+</script>
+<script
+  src="https://cdn.utmify.com.br/scripts/utms/latest.js"
+  data-utmify-prevent-xcod-sck
+  data-utmify-prevent-subids
+  async
+  defer
+></script>
     <!-- Background Decorations -->
     <div class="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full max-w-7xl -z-10 opacity-30 pointer-events-none">
       <div class="absolute top-10 left-10 w-72 h-72 bg-primary/20 rounded-full blur-[100px] animate-pulse"></div>
