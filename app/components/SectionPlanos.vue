@@ -46,9 +46,14 @@
               </div>
             </div>
 
-            <button class="w-full py-4 text-base font-bold rounded-2xl border-2 border-slate-500 text-slate-200 hover:border-slate-300 hover:text-white hover:bg-slate-700 transition-all duration-300">
+            <a
+              href="https://checkout.topvendas.site/VCCL1O8SCTOA"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="block w-full py-4 text-center text-base font-bold rounded-2xl border-2 border-slate-500 text-slate-200 hover:border-slate-300 hover:text-white hover:bg-slate-700 transition-all duration-300"
+            >
               👉 QUERO O ESSENCIAL
-            </button>
+            </a>
           </div>
         </div>
 
@@ -108,11 +113,14 @@
                 </div>
               </div>
 
-              <button
-                class="w-full py-5 text-lg sm:text-xl font-black rounded-2xl bg-white text-primary shadow-2xl hover:bg-blue-50 hover:scale-[1.02] active:scale-95 transition-all duration-300"
+              <a
+                href="https://checkout.topvendas.site/VCCL1O8SCTO9"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="block w-full py-5 text-center text-lg sm:text-xl font-black rounded-2xl bg-white text-primary shadow-2xl hover:bg-blue-50 hover:scale-[1.02] active:scale-95 transition-all duration-300"
               >
                 👉 QUERO O PACOTE COMPLETO
-              </button>
+              </a>
             </div>
           </div>
         </div>
