@@ -10,7 +10,7 @@
           Histórias de <span class="text-primary italic">Sucesso</span>
         </h2>
         <p class="text-slate-500 max-w-2xl mx-auto text-lg">
-          Milhares de alunos já transformaram sua forma de estudar Português e alcançaram a tão sonhada aprovação. Confira o que eles dizem:
+          Resultados reais de candidatos que aplicaram o método:
         </p>
       </div>
 
@@ -76,7 +76,7 @@
           class="shadow-2xl shadow-primary/30 w-full sm:w-auto min-w-[300px]"
           @click="scrollToPlanos"
         >
-          Quero Ter Esse Resultado
+          QUERO AUMENTAR MINHA NOTA
           <template #right-icon>
             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
@@ -96,39 +96,39 @@ const scrollToPlanos = () => {
 
 const depoimentos = [
   {
-    nome: 'Mariana Silva',
-    cidade: 'São Paulo - SP',
-    texto: 'O material é simplesmente fantástico. Eu sempre tive dificuldade com crase e pontuação, mas a explicação aqui é tão clara que parece que clareou tudo na minha mente. Fui aprovada no último concurso do TJ!',
+    nome: 'Juliana Martins',
+    cidade: 'Goiânia - GO',
+    texto: 'Eu sempre ficava entre 14 e 15 acertos em Português. Depois de aplicar o método do material, fiz 19 na última prova. Foram exatamente as regras que mais caem. Valeu muito a pena.',
     avatar: 'https://i.pravatar.cc/150?img=32'
   },
   {
-    nome: 'Ricardo Oliveira',
-    cidade: 'Brasília - DF',
-    texto: 'Focado no que realmente cai. Sem enrolação. Consegui gabaritar a prova de Português da PC-DF seguindo exatamente o que foi ensinado no curso. Recomendo demais!',
+    nome: 'Rafael Souza',
+    cidade: 'Campinas - SP',
+    texto: 'Estava errando muita questão por bobeira, principalmente vírgula e interpretação. Estudei o material em uma semana e já senti diferença nos simulados. Simples, direto e sem enrolação.',
     avatar: 'https://i.pravatar.cc/150?img=11'
   },
   {
-    nome: 'Ana Paula Santos',
+    nome: 'Carolina Freitas',
     cidade: 'Curitiba - PR',
-    texto: 'A didática é incrível. Os mapas mentais e os exercícios comentados fazem toda a diferença na hora de fixar o conteúdo. Vale cada centavo investido!',
+    texto: 'Saí de 12 para 17 acertos em Português depois que foquei só no que o material mostra. Antes eu estudava muito e continuava errando as mesmas coisas. Mudou completamente minha forma de estudar.',
     avatar: 'https://i.pravatar.cc/150?img=45'
   },
   {
-    nome: 'Bruno Mendes',
+    nome: 'Bruno Henrique',
     cidade: 'Belo Horizonte - MG',
-    texto: 'Eu achava que Português era impossível para mim. Esse curso provou que com o método certo, qualquer um pode aprender. Hoje estou empossado graças a essa ajuda.',
+    texto: 'O que mais gostei foi o foco nas pegadinhas de banca. Na prova da PM caíram exatamente padrões que estavam no material. Recomendo principalmente pra quem vive perdendo ponto por detalhe.',
     avatar: 'https://i.pravatar.cc/150?img=12'
   },
   {
-    nome: 'Carla Ferraz',
+    nome: 'Amanda Ribeiro',
     cidade: 'Recife - PE',
-    texto: 'O suporte e a qualidade das aulas são impecáveis. É o melhor custo-benefício do mercado para quem quer ser aprovado em concursos de alto nível.',
+    texto: 'Português sempre foi meu pesadelo. Depois desse material comecei a entender de verdade onde eu errava. No último concurso aumentei 5 questões só nessa matéria.',
     avatar: 'https://i.pravatar.cc/150?img=49'
   },
   {
-    nome: 'Felipe Rocha',
+    nome: 'Diego Alves',
     cidade: 'Rio de Janeiro - RJ',
-    texto: 'Impressionado com a organização. Seguir o cronograma proposto me deu a segurança que eu precisava para enfrentar a banca sem medo.',
+    texto: 'Material bem objetivo. Em dois dias já revisei coisas que eu enrolava há meses. Pra quem quer ganhar pontos rápido em Português, é excelente.',
     avatar: 'https://i.pravatar.cc/150?img=51'
   }
 ];

@@ -2,6 +2,7 @@
   <div class="min-h-screen bg-white font-sans text-neutral-dark selection:bg-primary selection:text-white overflow-x-hidden">
     <SectionHero />
     <SectionBeneficios />
+    <SectionProvaSocial />
     <SectionDepoimentos />
     <SectionPlanos />
     <SectionFAQ />

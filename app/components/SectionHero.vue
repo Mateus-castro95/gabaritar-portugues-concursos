@@ -13,18 +13,18 @@
         <div class="text-center lg:text-left flex flex-col items-center lg:items-start animate-fade-in-up">
           <span class="inline-flex items-center px-4 py-1.5 rounded-full text-xs font-bold bg-primary/10 text-primary mb-6 uppercase tracking-[0.25em] shadow-sm border border-primary/5">
             <span class="w-2 h-2 bg-primary rounded-full mr-2 animate-ping"></span>
-            A rota da sua aprovação
+            VOCÊ PODE ESTAR A 2 OU 3 QUESTÕES DA SUA APROVAÇÃO.
           </span>
           <h1 class="text-4xl sm:text-5xl lg:text-8xl font-bold font-display text-neutral-dark leading-[1] mb-6 tracking-tighter">
-            Gabarite seu <br class="hidden lg:block" /><span class="text-primary font-black relative px-1 inline-block">
-              Português
+            Se você quer <br class="hidden lg:block" /><span class="text-primary font-black relative px-1 inline-block">
+              aumentar
               <svg class="absolute -bottom-2 left-0 w-full h-3 text-primary/30" viewBox="0 0 100 8" preserveAspectRatio="none">
                 <path d="M0,7 C30,7 70,1 100,1" stroke="currentColor" stroke-width="4" fill="none" stroke-linecap="round" />
               </svg>
-            </span> em qualquer concurso.
+            </span> seus acertos já nas próximas provas, comece aqui.
           </h1>
           <p class="text-base sm:text-lg text-slate-500 mb-8 max-w-lg leading-relaxed mx-auto lg:mx-0 opacity-90">
-            Metodologia direta, focada e eficiente para você dominar a gramática e interpretação sem enrolação. O caminho mais curto entre você e o cargo público.
+            Descubra o método direto ao ponto que já ajudou mais de 5.000 candidatos a parar de perder pontos bobos em Português — mesmo errando interpretação e crase há anos.
           </p>
           <div class="hidden lg:flex flex-col sm:flex-row gap-5 w-full sm:w-auto">
             <BaseButton 
@@ -33,7 +33,7 @@
               class="shadow-2xl shadow-primary/30"
               @click="scrollToPlanos"
             >
-              Quero ser aprovado
+              <span class="whitespace-normal text-center leading-tight">QUERO PARAR DE ERRAR<br>PORTUGUÊS AGORA</span>
               <template #right-icon>
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
@@ -87,13 +87,66 @@
               class="shadow-2xl shadow-primary/30 w-full"
               @click="scrollToPlanos"
             >
-              Quero ser aprovado
+              <span class="whitespace-normal text-center leading-tight">QUERO PARAR DE ERRAR<br>PORTUGUÊS AGORA</span>
               <template #right-icon>
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
                 </svg>
               </template>
             </BaseButton>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bloco de Dor -->
+      <div class="mt-16 lg:mt-20 max-w-3xl mx-auto animate-fade-in-up" style="animation-delay: 0.4s;">
+        <div class="relative rounded-3xl overflow-hidden border border-red-500/30 bg-neutral-dark shadow-2xl shadow-black/30 p-8 sm:p-10">
+          <!-- Faixa de alerta no topo -->
+          <div class="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-red-600 via-red-400 to-red-600"></div>
+
+          <!-- Ícone de alerta -->
+          <div class="flex items-center gap-3 mb-6">
+            <span class="text-2xl">⚠️</span>
+            <p class="text-red-400 font-black text-sm uppercase tracking-[0.2em]">A verdade que quase ninguém fala</p>
+          </div>
+
+          <!-- Frase principal -->
+          <p class="text-white text-xl sm:text-2xl font-bold leading-snug mb-6">
+            Português elimina mais candidatos do que você imagina.
+          </p>
+
+          <!-- Explicação -->
+          <p class="text-slate-400 text-base leading-relaxed mb-8">
+            Não é falta de estudo.<br/>
+            É <span class="text-white font-semibold">estudar coisa demais</span> e errar exatamente o que mais cai.
+          </p>
+          <p class="text-slate-400 text-base leading-relaxed mb-6">
+            Você pode passar meses revisando conteúdo e continuar errando:
+          </p>
+
+          <!-- Lista de erros -->
+          <ul class="space-y-3 mb-8">
+            <li class="flex items-center gap-3 text-white text-base font-semibold">
+              <span class="text-lg">❌</span> Crase
+            </li>
+            <li class="flex items-center gap-3 text-white text-base font-semibold">
+              <span class="text-lg">❌</span> Vírgula
+            </li>
+            <li class="flex items-center gap-3 text-white text-base font-semibold">
+              <span class="text-lg">❌</span> Interpretação
+            </li>
+            <li class="flex items-center gap-3 text-white text-base font-semibold">
+              <span class="text-lg">❌</span> Pegadinhas de banca
+            </li>
+          </ul>
+
+          <!-- Frase final de impacto -->
+          <div class="border-t border-white/10 pt-6">
+            <p class="text-slate-300 text-base sm:text-lg leading-relaxed">
+              E cada erro desses pode ser a diferença entre
+              <span class="text-white font-bold">seu nome na lista…</span>
+              ou <span class="text-red-400 font-bold">fora dela.</span>
+            </p>
           </div>
         </div>
       </div>
